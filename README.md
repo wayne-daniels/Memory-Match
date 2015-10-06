@@ -1,6 +1,9 @@
 # memory_match
 Memory Match game, similar to Concentration
 
+##Project Overview
+<a href="https://drive.google.com/open?id=0B7eOl4joefDuWTRUQWU0eXdtRzg" target="_blank">Initial project overview</a>
+
 ##Scope 
 
 ## V0.1
