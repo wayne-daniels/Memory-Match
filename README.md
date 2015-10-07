@@ -46,7 +46,7 @@ cohesive version of this project.
 > - Send to gitHub (Push)
     - `git push origin v1`
     
-> #### Scope - [View]()
+> #### Scope - [View](https://github.com/Learning-Fuze/memory_match/tree/assets#v1)
 
 > #### Related Videos
 
@@ -80,21 +80,25 @@ target="_blank">Slides</a>
 
 ### v1
 
-> - Choose / design a theme
+> - **Choose / design a theme**
     - Here are a couple examples of past designs
-        - Example 1 - Howard (C5) Link
-            <img src="" width="400">
-        - Example 2 - Trevor (C5) Link
-            <img src="" width="400">
-> - Layout Components
+        - **Example 1 - Howard (C5) Link**
+            <br><img src="https://github.com/Learning-Fuze/memory_match/blob/assets/images/Howard-MM.png?raw=true" width="400">
+        
+>       - **Example 2 - Trevor (C5) Link**
+            <br><img src="https://github.com/Learning-Fuze/memory_match/blob/assets/images/Trevor-MM.png?raw=true" width="400">
+
+> - **Layout Components**
     - **General Layout concept**
-        <img src="" width="400">
-    - **Header Container**
+        <br><img src="https://github.com/Learning-Fuze/memory_match/blob/assets/images/mm_wireframing.png?raw=true" width="400">
+    
+>   - **Header Container**
         - Game Logo 
         - Game Title
         - Settings Link (links to no where yet)
         - About Link  (links to a page with a description of the game and what you did in it)
-    - **Stats Container**
+
+>   - **Stats Container**
         - Games Played
             - element that has a class of **“games-played”**, inside this container:
                 - element with class **"label"** with the text **“Games Played”**
@@ -110,7 +114,8 @@ target="_blank">Slides</a>
         - Button Element with:
             - class of **“reset”**
             - Text of **“Reset Game”**
-    - **Game Area**
+
+>   - **Game Area**
         - Element with:
             - class of **“game-area”**
             - 9 matching card elements (18 total) inside with each element having:
@@ -122,7 +127,7 @@ target="_blank">Slides</a>
                     - Card back element with:
                         - class **“back”**
                         - img element inside with a valid
-> - Files in repo:
+> - **Files in repo:**
     - index.html - the main file
         - Provided HTML general layout
     - style.css - the main css file, referenced from index.html
