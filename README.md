@@ -128,9 +128,9 @@ target="_blank">Slides</a>
 >>                        - img element inside with a valid
 
 > ##### Add Functionality:**
->>        - Inside of the head tag link the following javascript files in order
->>            - https://code.jquery.com/jquery-2.1.4.min.js
->>            - http://learning-fuze.github.io/memory_match/v0.1/script.js
+>>  - Inside of the head tag link the following javascript files in order
+>>      - https://code.jquery.com/jquery-2.1.4.min.js
+>>      - http://learning-fuze.github.io/memory_match/v0.1/script.js
 
 
 > ##### Files in repo:
