@@ -6,7 +6,7 @@ Memory match is a game with 18 cards face down and the player has to try and mat
 remembering the position of the cards. Once the player has matched 2 cards they will be displayed face up until all 
 pairs have been matched. 
 
-<a href="https://drive.google.com/open?id=0B7eOl4joefDuWTRUQWU0eXdtRzg" target="_blank">Design Overview</a>
+<a href="https://docs.google.com/presentation/d/1zlSHYatpaPsrq4LuOtyuE-RRIom4vRo-lXovQ0zPV0U/pub?start=false&loop=false&delayms=3000&slide=id.p" target="_blank">Design Overview</a>
 
 ## Versions
 
