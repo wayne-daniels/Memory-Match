@@ -18,7 +18,7 @@ cohesive version of this project.
 
 > **Related Videos**
 
-> - CSS Animation - <a href="https://www.youtube.com/watch?t=3&v=fjqT5mwbOCo" target="_blank">Video</a> | <a href="https://drive.google.com/a/learningfuze.com/file/d/0B7eOl4joefDub1BUOUtQMWdtbnc/view" 
+> - CSS Animation - <a href="https://www.youtube.com/watch?t=3&v=fjqT5mwbOCo" target="_blank">Video</a> | <a href="https://docs.google.com/presentation/d/1D--Uon9dUBR4i19i9NHIt6LpBcbVVHx5JSoT6oywjXE/pub?start=false&loop=false&delayms=3000&slide=id.p" 
 target="_blank">Slides</a>
 > - BootStrap Intro - <a href="https://www.youtube.com/watch?t=544&v=i7cnwkFbuko" target="_blank">Video</a> | <a 
 href="https://docs.google.com/presentation/d/1AzAVKt40iIkd84kNQ3fCbpYJZsY3FC8dZuOPMOvbUbU/pub?start=false&loop=false&delayms=3000&slide=id.p" target="_blank">Slides</a>
