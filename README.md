@@ -21,12 +21,12 @@ cohesive version of this project.
 > - CSS Animation - <a href="https://www.youtube.com/watch?t=3&v=fjqT5mwbOCo" target="_blank">Video</a> | <a href="https://drive.google.com/a/learningfuze.com/file/d/0B7eOl4joefDub1BUOUtQMWdtbnc/view" 
 target="_blank">Slides</a>
 > - BootStrap Intro - <a href="https://www.youtube.com/watch?t=544&v=i7cnwkFbuko" target="_blank">Video</a> | <a 
-href="https://drive.google.com/a/learningfuze.com/file/d/0B7eOl4joefDuS1l1THpsanlsWkU/view" target="_blank">Slides</a>
+href="https://docs.google.com/presentation/d/1AzAVKt40iIkd84kNQ3fCbpYJZsY3FC8dZuOPMOvbUbU/pub?start=false&loop=false&delayms=3000&slide=id.p" target="_blank">Slides</a>
 > - Bootstrap Redux - <a href="https://www.youtube.com/watch?v=HFhIYttrvWM" target="_blank">Video</a> | <a 
-href="https://drive.google.com/a/learningfuze.com/file/d/0B7eOl4joefDuTWJrVk9YTXR5M2c/view" target="_blank">Slides</a>
-> - Positioning & Floating - <a href="" target="_blank">Video</a> | <a href="https://drive.google.com/a/learningfuze.com/file/d/0B7eOl4joefDuOGVTZXpHOWtrNGM/view" target="_blank">Slides</a>
-> - Box Model, Margin & Dimensions - <a href="" target="_blank">Video</a> | <a href="https://drive.google.com/a/learningfuze.com/file/d/0B7eOl4joefDueXdic3dWekhXdWc/view" target="_blank">Slides</a>
-> - CSS Selectors, Cascading & Specificity - <a href="" target="_blank">Video</a> | <a href="https://drive.google.com/a/learningfuze.com/file/d/0B7eOl4joefDub3N1NWE3VmFxakE/view" 
+href="https://docs.google.com/presentation/d/1AwwKy3duuJyfh_nYIoJ8w743oL7U6n4mChHNsMBcZdU/pub?start=false&loop=false&delayms=3000&slide=id.p" target="_blank">Slides</a>
+> - Positioning & Floating - <a href="https://www.youtube.com/watch?v=cOAHWiAxgoI" target="_blank">Video</a> | <a href="https://docs.google.com/presentation/d/1FtwdmaSl5icYHzBxY6uCZUHM7K_smRfS7eF0q-P46GY/pub?start=false&loop=false&delayms=3000&slide=id.p" target="_blank">Slides</a>
+> - Box Model, Margin & Dimensions - <a href="https://www.youtube.com/watch?v=9xixJDx7pWo" target="_blank">Video</a> | <a href="https://docs.google.com/presentation/d/1_NISU3X3ZkWUbbu6DcE3HPL3MZ8TNYsRyXnNRM2snuA/pub?start=false&loop=false&delayms=3000&slide=id.p" target="_blank">Slides</a>
+> - CSS Selectors, Cascading & Specificity - <a href="https://www.youtube.com/watch?v=456PdCCQX3c" target="_blank">Video</a> | <a href="https://docs.google.com/presentation/d/1fRgUZaRLOH-tTLGazsBfqWMwv90dcLZMTEl0FjZpWMk/pub?start=false&loop=false&delayms=3000&slide=id.p" 
 target="_blank">Slides</a> 
 
 > **Related Prototypes**
