@@ -9,10 +9,7 @@ concentration. The scope for this version asks the student to choose a theme for
 > - 1 card back
 > - Creating an about page describing about the game and the skills that went into creating it.
 
-> This version will integrate with instructor built JavaScript to give the layout built by the student's functionality 
-and show the ability of design & layout to be independent of functionality but strict requirements are needed 
-(specific classes and id’s). In future versions the students will be building out the same functionality that is 
-provided with each student providing their own flare and features. The students will pull the knowledge from what 
+> In future versions the students will be building out the functionality with their own flare and features. The students will pull the knowledge from what 
 they have learned from the resources they have consumed and the prototypes they have completed and pull it into one 
 cohesive version of this project. 
 
@@ -29,14 +26,6 @@ href="https://docs.google.com/presentation/d/1AwwKy3duuJyfh_nYIoJ8w743oL7U6n4mCh
 > - CSS Selectors, Cascading & Specificity - <a href="https://www.youtube.com/watch?v=456PdCCQX3c" target="_blank">Video</a> | <a href="https://docs.google.com/presentation/d/1fRgUZaRLOH-tTLGazsBfqWMwv90dcLZMTEl0FjZpWMk/pub?start=false&loop=false&delayms=3000&slide=id.p" 
 target="_blank">Slides</a> 
 
-> **Related Prototypes**
-
-> - <a href="https://github.com/Learning-Fuze/prototypes/tree/master/css_design_layout_1#prototype---css-design--layout-1-box-model-margin-padding-border-and-dimensions" target="_blank">CSS Design Layout 1</a>
-> - <a href="https://github.com/Learning-Fuze/prototypes/tree/master/css_design_layout_2#prototype---css-design--layout-2--css-positioning-and-css-floating" target="_blank">CSS Design Layout 2</a>
-> - <a href="https://github.com/Learning-Fuze/prototypes/tree/master/css_selectors#prototype---css-selectors" target="_blank">CSS Selectors</a>
-> - <a href="https://github.com/Learning-Fuze/prototypes/tree/master/css_bootstrap_redux#bootstrap-redux" target="_blank">CSS Bootstrap Redux</a>
-
-
 #### Getting Started
 
 > - Fork this repo by clicking on the **Fork** button located at the top right of this page
@@ -44,7 +33,7 @@ target="_blank">Slides</a>
     - `git clone https://github.com/[your_user_name]/memory_match.git`
     - **Change [your_user_name] to your user name**
 > - Create a feature branch
-    - `git checkout -b version0.1`
+    - `git checkout -b v0.1`
 > - Work on the scope defined <a href="https://github.com/Learning-Fuze/memory_match/tree/assets#v0.1">Below</a>
 #### After coding: Save your work to gitHub
 > - Add files to git
@@ -112,8 +101,7 @@ target="_blank">Slides</a>
 
 > ##### Add Functionality:
 >  - Inside of the head tag link the following javascript files in order
->      - https://code.jquery.com/jquery-2.1.4.min.js
->      - http://learning-fuze.github.io/memory_match/v0.1/script.js
+>      - https://code.jquery.com/jquery-3.1.0.js
 
 
 > ##### Files in repo:
