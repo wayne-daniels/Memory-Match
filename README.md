@@ -13,13 +13,10 @@
 > - <a href="https://plus.google.com/u/0/events/cn2ca07j9v8nt5kdd1olqe3ljrc?authkey=CNK97_OZ4ee8ag">Video - JS Functions</a>
 > - <a href="https://plus.google.com/u/0/hangouts/onair/watch?hid=hoaevent%2Fc4a35jk6e468buf0fpua0em74dc&ytl=...">Video - JS Comparisons and Conditionals</a>
 
-> **Related Prototypes**
-> - <a href="https://github.com/Learning-Fuze/prototypes/tree/master/js_comparisons_conditionals">PROTOTYPE - JS Comparisons & Conditionals</a>
-> - <a href="https://github.com/Learning-Fuze/prototypes/tree/master/js_functions">PROTOTYPE - JS Functions</a>
 
 #### Getting Started
 
-> - If you haven't already started the v0.1 start there - <a href="https://github.com/Learning-Fuze/memory_match/tree/v0.1#getting-started">View Details Here</a>
+> - If you haven't already started the v0.1 start there - <a href="https://github.com/Learning-Fuze/memory_match/tree/version0.1#getting-started">View Details Here</a>
 > - Are you on your master branch?
     - **Yes** - continue to "Pull Latest Changes"
     - **I dont know** Run the command below
@@ -29,18 +26,18 @@
         - `git checkout master`
         - `git pull origin master` - **Now continue with the next steps**
 > - Create a feature branch
-    - `git checkout -b version0.5`
-> - Work on the scope defined <a href="https://github.com/Learning-Fuze/memory_match/tree/v0.5#scope">Below</a>
+    - `git checkout -b v0.5`
+> - Work on the scope defined <a href="https://github.com/Learning-Fuze/memory_match/tree/version0.5#scope">Below</a>
 > - Save your work to gitHub
 > - Add files to git
     - `git add .`
 > - Commit files (Group files together)
-    - `git commit -m "Memory Match version0.5 - Your Name"`
+    - `git commit -m "Memory Match v0.5 - Your Name"`
     - **Replace "Your Name" with your first and last name**
 > - Send to gitHub (Push)
-    - `git push origin version0.5`
+    - `git push origin v0.5`
 > - Create pull request
-    - Pull request should be made from version0.5 to **your repository's** master branch
+    - Pull request should be made from v0.5 to **your repository's** master branch
     - Receive Peer review on your pull request (Wait for Instruction)
         - Reviewer should merge pull request through Github UI once all comments have been resolved
 > - **Once Peer Review is complete & auto merge happens through Github UI**
