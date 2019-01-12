@@ -42,7 +42,7 @@ target="_blank">Slides</a>
     - `git commit -m "Memory Match v0.1 - Your Name"`
     - **Replace "Your Name" with your first and last name**
 > - Send to gitHub (Push)
-    - `git push origin version0.1`
+    - `git push origin v0.1`
 > - Create pull request
     - Pull request should be made from version0.1 to **your repository's** master branch
     - Merge Pull request through Github UI
