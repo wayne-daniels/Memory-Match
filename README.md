@@ -104,7 +104,7 @@ target="_blank">Slides</a>
 >      - https://code.jquery.com/jquery-3.1.0.js
 
 
-> ##### Files in repo:
+> ##### Files to add to the repo:
 >    - index.html - the main file
 >        - Provided HTML general layout
 >    - style.css - the main css file, referenced from index.html
