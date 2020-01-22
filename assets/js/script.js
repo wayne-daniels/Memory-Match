@@ -7,3 +7,5 @@ function handleClick(event) {
   }
   event.target.className += "hidden";
 }
+
+// flip cards added //
