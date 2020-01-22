@@ -82,8 +82,11 @@ div.card {
   background-image: url(../images/node-logo.png);
 }
 .php-logo {
-  background-image: url(../images/php-logo.jpg);
+  background-image: url(../images/php-logo.jpeg);
 }
 .react-logo {
   background-image: url(../images/react-logo.png);
+}
+.hidden {
+  display: none;
 }
