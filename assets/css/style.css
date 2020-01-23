@@ -87,8 +87,28 @@ div.card {
 .react-logo {
   background-image: url(../images/react-logo.png);
 }
+.modal {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 100vh;
+  width: 100%;
+  z-index: 1;
+}
+.win-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: deeppink;
+  border: solid 5px goldenrod;
+  color: chartreuse;
+  font-family: 'Times New Roman', Times, serif;
+  width: 70%;
+  height: 50%;
+}
 .hidden {
   display: none;
 }
-
-
