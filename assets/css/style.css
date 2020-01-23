@@ -102,12 +102,16 @@ div.card {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: deeppink;
-  border: solid 5px goldenrod;
-  color: chartreuse;
-  font-family: 'Times New Roman', Times, serif;
+  background-color: darkgreen;
+  border: solid 10px aqua;
   width: 70%;
   height: 50%;
+}
+.win-content > p {
+  color: lightgreen;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 5rem;
+  font-weight: bolder;
 }
 .hidden {
   display: none;

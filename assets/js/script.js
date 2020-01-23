@@ -27,10 +27,15 @@ function handleClick(event) {
         secondCardClicked = null;
         clickCard.addEventListener('click', handleClick);
         matches++;
+        attempts++;
+        displayStats();
         if (matches === maxMatches) {
           document.getElementById("modal").classList.remove("hidden");
+          gamesPlayed++;
+          displayStats();
         }
       } else {
+        attempts++;
         clickCard.removeEventListener('click', handleClick);
         setTimeout (function() {firstCardClicked.classList.remove("hidden");
         firstCardClicked = null;
@@ -39,10 +44,12 @@ function handleClick(event) {
         clickCard.addEventListener('click', handleClick);}, 1500);
       }
   }
-}
-
-function displayStats() {
-  document.getElementById("play").textContent = gamesPlayed;
-  document.getElementById("trys").textContent = attempts;
-  document.getElementById("skill").textContent = matches/attempts;
+  function displayStats() {
+    document.getElementById("play").textContent = gamesPlayed;
+    document.getElementById("trys").textContent = attempts;
+    document.getElementById("skill").textContent = parseFloat((matches/attempts)*100).toFixed(2) + "%";
+  }
+  function calculateAccuracy(attempts, matches) {
+    return ((matches / attempts) * 100).toFixed(1) + "%";
+  }
 }
