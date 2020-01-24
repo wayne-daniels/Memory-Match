@@ -98,7 +98,7 @@ function resetGame() {
   gamesPlayed++;
 }
 
-fuction resetCards() {
+function resetCards() {
   var hiddenCards = document.querySelectorAll("card-back");
   console.log(hiddenCards);
 }
