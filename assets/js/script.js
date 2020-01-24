@@ -100,5 +100,7 @@ function resetGame() {
 
 function resetCards() {
   var hiddenCards = document.querySelectorAll("card-back");
-  console.log(hiddenCards);
+  for (i = 0; i < hiddenCards.length; i++) {
+    hiddenCards[i].classList.remove("hidden");
+ }
 }
