@@ -15,10 +15,14 @@ h1 {
   font-family: Times, 'Times New Roman', serif;
   font-size: 4rem;
   text-align: center;
+  color: white;
+  text-shadow: 2.5px 2.5px 4.5px black;
 }
 p {
   font-family: Times, 'Times New Roman', serif;
   font-size: 2rem;
+  color: darkslategrey;
+  text-shadow: 2.5px 2.5px 4.5px white;
 }
 aside {
   display: flex;
