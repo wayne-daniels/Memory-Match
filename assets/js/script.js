@@ -93,14 +93,27 @@ function handleClick(event) {
     return ((matches / attempts) * 100).toFixed(1) + "%";
   }
 }
+
+var clickReset = document.getElementById("reset");
+clickReset.addEventListener('click', resetGame);
+
 function resetGame() {
-  displayStats();
+  var maxMatches = 9;
+  var matches = 0;
+  var attempts = 0;
   gamesPlayed++;
+  function displayStats() {
+    document.getElementById("play").textContent = gamesPlayed;
+    document.getElementById("trys").textContent = attempts;
+    document.getElementById("skill").textContent = parseFloat((matches / attempts) * 100).toFixed(2) + "%";
+  }
+  resetCards();
+  document.getElementById("modal").classList.add("hidden");
 }
 
 function resetCards() {
-  var hiddenCards = document.querySelectorAll("card-back");
-  for (i = 0; i < hiddenCards.length; i++) {
+  var hiddenCards = document.querySelectorAll(".card-back");
+  for (var i = 0; i < hiddenCards.length; i++) {
     hiddenCards[i].classList.remove("hidden");
  }
 }
