@@ -1,3 +1,34 @@
+var firstCardClicked = null;
+var firstCardClasses = '';
+var secondCardClicked = null;
+var secondCardClasses = '';
+
+var maxMatches = 9;
+var matches = 0;
+
+var attempts = 0;
+var gamesPlayed = 0;
+
+function resetGame() {
+  // var maxMatches = 9;
+  matches = 0;
+  attempts = 0;
+  gamesPlayed++;
+  displayStats();
+  resetCards();
+  document.getElementById("modal").classList.add("hidden");
+}
+
+function resetCards() {
+  var hiddenCards = document.querySelectorAll(".card-back");
+  for (var i = 0; i < hiddenCards.length; i++) {
+    hiddenCards[i].classList.remove("hidden");
+  }
+}
+
+var clickReset = document.getElementById("reset");
+clickReset.addEventListener('click', resetGame);
+
 var cardsArray = [
   " css-logo",
   " docker-logo",
@@ -36,16 +67,17 @@ for (i = 0; i < fronts.length; i++) {
   fronts[i].className += ' ' + cardsArray[i];
 }
 
-var firstCardClicked = null;
-var firstCardClasses = '';
-var secondCardClicked = null;
-var secondCardClasses = '';
-
-var maxMatches = 9;
-var matches = 0;
-
-var attempts = 0;
-var gamesPlayed = 0;
+function displayStats() {
+  document.getElementById("play").textContent = gamesPlayed;
+  document.getElementById("trys").textContent = attempts;
+  document.getElementById("skill").textContent = calculateAccuracy(attempts, matches);
+}
+function calculateAccuracy(attempts, matches) {
+  if (attempts === 0) {
+    return "0%"
+  }
+  return ((Math.trunc((matches / attempts) * 100)) + "%");
+}
 
 var clickCard = document.getElementById("gameCards");
 clickCard.addEventListener('click', handleClick);
@@ -84,36 +116,4 @@ function handleClick(event) {
       }, 1500);
     }
   }
-  function displayStats() {
-    document.getElementById("play").textContent = gamesPlayed;
-    document.getElementById("trys").textContent = attempts;
-    document.getElementById("skill").textContent = parseFloat((matches / attempts) * 100).toFixed(2) + "%";
-  }
-  function calculateAccuracy(attempts, matches) {
-    return ((matches / attempts) * 100).toFixed(1) + "%";
-  }
-}
-
-var clickReset = document.getElementById("reset");
-clickReset.addEventListener('click', resetGame);
-
-function resetGame() {
-  var maxMatches = 9;
-  var matches = 0;
-  var attempts = 0;
-  gamesPlayed++;
-  function displayStats() {
-    document.getElementById("play").textContent = gamesPlayed;
-    document.getElementById("trys").textContent = attempts;
-    document.getElementById("skill").textContent = parseFloat((matches / attempts) * 100).toFixed(2) + "%";
-  }
-  resetCards();
-  document.getElementById("modal").classList.add("hidden");
-}
-
-function resetCards() {
-  var hiddenCards = document.querySelectorAll(".card-back");
-  for (var i = 0; i < hiddenCards.length; i++) {
-    hiddenCards[i].classList.remove("hidden");
- }
 }
