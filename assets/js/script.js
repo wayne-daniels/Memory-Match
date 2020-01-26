@@ -9,26 +9,6 @@ var matches = 0;
 var attempts = 0;
 var gamesPlayed = 0;
 
-function resetGame() {
-  // var maxMatches = 9;
-  matches = 0;
-  attempts = 0;
-  gamesPlayed++;
-  displayStats();
-  resetCards();
-  document.getElementById("modal").classList.add("hidden");
-}
-
-function resetCards() {
-  var hiddenCards = document.querySelectorAll(".card-back");
-  for (var i = 0; i < hiddenCards.length; i++) {
-    hiddenCards[i].classList.remove("hidden");
-  }
-}
-
-var clickReset = document.getElementById("reset");
-clickReset.addEventListener('click', resetGame);
-
 var cardsArray = [
   " css-logo",
   " docker-logo",
@@ -57,15 +37,34 @@ function shuffle(cardsArray) {
   var temp = null;
   for (i = cardsArray.length - 1; i > 0; i -= 1) {
     j = Math.floor(Math.random() * (i + 1));
-    var temp = cardsArray[i];
+    temp = cardsArray[i];
     cardsArray[i] = cardsArray[j];
     cardsArray[j] = temp;
   }
 }
 shuffle(cardsArray);
-for (i = 0; i < fronts.length; i++) {
+for (var i = 0; i < fronts.length; i++) {
   fronts[i].className += ' ' + cardsArray[i];
 }
+
+function resetGame() {
+  matches = 0;
+  attempts = 0;
+  displayStats();
+  resetCards();
+  shuffle(cardsArray);
+  document.getElementById("modal").classList.add("hidden");
+}
+
+function resetCards() {
+  var hiddenCards = document.querySelectorAll(".card-back");
+  for (var i = 0; i < hiddenCards.length; i++) {
+    hiddenCards[i].classList.remove("hidden");
+  }
+}
+
+var clickReset = document.getElementById("reset");
+clickReset.addEventListener('click', resetGame);
 
 function displayStats() {
   document.getElementById("play").textContent = gamesPlayed;
