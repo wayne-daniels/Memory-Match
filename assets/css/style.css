@@ -106,17 +106,39 @@ div.card {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: darkgreen;
-  border: solid 10px aqua;
-  width: 70%;
-  height: 50%;
+  background-color: maroon;
+  border: solid 10px red;
+  border-radius: 4px;
+  width: 60%;
+  height: 40%;
 }
 .win-content > p {
-  color: lightgreen;
+  color: lightsalmon;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: bolder;
+  margin: 0;
+}
+.game-reset {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  border: solid 10px hotpink;
+  border-radius: 2px;
+  width: 25%;
+  height: 20%;
+  margin-top: 5px;
+}
+.game-reset > p {
+  color: darkviolet;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  margin: 0;
 }
 .hidden {
   display: none;
 }
+/* Feature Set 6 Reset / Play Again */
