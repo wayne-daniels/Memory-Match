@@ -116,3 +116,4 @@ function handleClick(event) {
     }
   }
 }
+// Feature Set 6 Reset / Play Again //
