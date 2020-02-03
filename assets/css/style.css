@@ -72,9 +72,6 @@ div.card:hover {
   position: absolute;
 }
 .card-back {
-  background-image: url(../images/lfz-card.jpg);
-}
-.card-back-vegas {
   background-image: url(../images2/popeye.jpg);
 }
 .css-logo {
