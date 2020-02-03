@@ -5,17 +5,11 @@ body {
   display: flex;
   flex-basis: 100%;
   height: 97vh;
-  background: url("../images/lfz-background.jpg");
+  /*background: url("../images/lfz-background.jpg");*/
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
-}
-body.bg {
-
-}
-.bg-image1 {
-
 }
 h1 {
   font-family: Times, 'Times New Roman', serif;
@@ -59,6 +53,16 @@ div.card {
   height: 28%;
   position: relative;
 }
+div.card:hover {
+  -webkit-box-shadow: 4px -4px 15px 0px #FF1F1F, 12px -11px 7px 0px #FF9376,
+  20px -5px 7px 0px #FFE264, 20px 6px 7px 0px #F6FF33, 13px 12px 17px 0px #FF9527,
+  2px 17px 17px 0px #FF0000, -9px 21px 18px 0px #FFF212, -9px 6px 11px 0px #FF0808,
+  -11px -9px 11px 0px #FFFA17, -11px -9px 11px 0px #FFFA17, 5px 5px 15px 5px rgba(0,0,0,0);
+  box-shadow: 4px -4px 15px 0px #FF1F1F, 12px -11px 7px 0px #FF9376, 20px -5px 7px 0px #FFE264,
+  20px 6px 7px 0px #F6FF33, 13px 12px 17px 0px #FF9527, 2px 17px 17px 0px #FF0000,
+  -9px 21px 18px 0px #FFF212, -9px 6px 11px 0px #FF0808, -11px -9px 11px 0px #FFFA17,
+  -11px -9px 11px 0px #FFFA17, 5px 5px 15px 5px rgba(0,0,0,0);
+}
 .card-front, .card-back {
   height: 100%;
   width: 100%;
@@ -69,6 +73,9 @@ div.card {
 }
 .card-back {
   background-image: url(../images/lfz-card.jpg);
+}
+.card-back-vegas {
+  background-image: url(../images2/popeye.jpg);
 }
 .css-logo {
   background-image: url(../images/css-logo.png);
