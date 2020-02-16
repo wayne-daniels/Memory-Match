@@ -1,10 +1,3 @@
-@media screen and (min-width: 321px) and (max-width: 480px) {
-  /* comes into effect for screens between 321 and 480 pixels (inclusive) */
-  #somethingorother {
-    width: 320px ;
-  }
-}
-
 @font-face {
   font-family: ostrich-sans-bold;
   src: url(../fonts/ostrich-sans-bold.woff);
