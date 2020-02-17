@@ -40,7 +40,7 @@ p {
 aside {
   display: flex;
   flex-direction: column;
-  height: 92%;
+  height: 85%;
 }
 aside > div{
   background-color: #49F2FF ;
