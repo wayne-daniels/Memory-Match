@@ -1,0 +1,144 @@
+.container {
+  height: 100%;
+}
+body {
+  height: 97vh;
+  background: url("../images/lfz-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  display: flex;
+  flex-basis: 100%;
+}
+h1 {
+  font-family: Times, 'Times New Roman', serif;
+  font-size: 4rem;
+  text-align: center;
+  color: white;
+  text-shadow: 2.5px 2.5px 4.5px black;
+}
+p {
+  font-family: Times, 'Times New Roman', serif;
+  font-size: 2rem;
+  color: darkslategrey;
+  text-shadow: 2.5px 2.5px 4.5px white;
+}
+aside {
+  display: flex;
+  flex-direction: column;
+  height: 92%;
+}
+aside > div{
+  background-color: #6EBED8 ;
+  width: 85%;
+  height: 14%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+div.card {
+  display: flex;
+  margin: 10px;
+  height: 28%;
+  position: relative;
+}
+.card-front, .card-back {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+}
+.card-back {
+  background-image: url(../images/lfz-card.jpg);
+}
+.css-logo {
+  background-image: url(../images/css-logo.png);
+}
+.docker-logo {
+  background-image: url(../images/docker-logo.jpg);
+}
+.github-logo {
+  background-image: url(../images/gitHub-logo.png);
+}
+.html-logo {
+  background-image: url(../images/html-logo.png);
+}
+.js-logo {
+  background-image: url(../images/js-logo.png);
+}
+.mysql-logo {
+  background-image: url(../images/mysql-logo.jpg);
+}
+.node-logo {
+  background-image: url(../images/node-logo.png);
+}
+.php-logo {
+  background-image: url(../images/php-logo.jpeg);
+}
+.react-logo {
+  background-image: url(../images/react-logo.png);
+}
+.modal {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 100vh;
+  width: 100%;
+  z-index: 1;
+}
+.win-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: maroon;
+  border: solid 10px red;
+  border-radius: 4px;
+  width: 60%;
+  height: 40%;
+}
+.win-content > p {
+  color: lightsalmon;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 4rem;
+  font-weight: bolder;
+  margin: 0;
+}
+.game-reset {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  border: solid 10px hotpink;
+  border-radius: 2px;
+  width: 25%;
+  height: 20%;
+  margin-top: 5px;
+}
+.game-reset > p {
+  color: darkviolet;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  margin: 0;
+}
+.hidden {
+  display: none;
+}
+/* Feature Set 6 Reset / Play Again */
