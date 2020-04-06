@@ -31,6 +31,15 @@ var cardsArray = [
 ];
 var fronts = document.getElementsByClassName("card-front");
 
+document.body.style.background = "url('assets/images2/LasVegas.jpg')";
+// function vegasCards() {
+//   var vegasBacks = document.querySelectorAll(".card-back");
+//   for (var i = 0; i < vegasBacks.length; i++) {
+//     vegasBacks[i].classList.add("-vegas");
+//   }
+// }
+// vegasCards()
+
 function shuffle(cardsArray) {
   var i = 0;
   var j = 0;
