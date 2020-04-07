@@ -88,33 +88,39 @@ div.card:hover {
 }
 .card-back {
   background-image: url(../images2/Card-Back-2.jpg);
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
 }
 .css-logo {
-  background-image: url(../images/css-logo.png);
+  background-image: url(../images2/landing.jpg);
 }
 .docker-logo {
-  background-image: url(../images/docker-logo.jpg);
+  background-image: url(../images2/limo.jpg);
 }
 .github-logo {
-  background-image: url(../images/gitHub-logo.png);
+  background-image: url(../images2/palazzo.jpg);
 }
 .html-logo {
-  background-image: url(../images/html-logo.png);
+  background-image: url(../images2/paris.jpg);
 }
 .js-logo {
-  background-image: url(../images/js-logo.png);
+  background-image: url(../images2/private_jet.jpg);
 }
 .mysql-logo {
-  background-image: url(../images/mysql-logo.jpg);
+  background-image: url(../images2/sports_book.jpg);
 }
 .node-logo {
-  background-image: url(../images/node-logo.png);
+  background-image: url(../images2/windows.jpg);
 }
 .php-logo {
-  background-image: url(../images/php-logo.jpeg);
+  background-image: url(../images2/wynn_casino.jpg);
 }
 .react-logo {
-  background-image: url(../images/react-logo.png);
+  background-image: url(../images2/wynn_night.jpg);
 }
 .modal {
   position: fixed;
