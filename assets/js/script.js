@@ -10,35 +10,26 @@ var attempts = 0;
 var gamesPlayed = 0;
 
 var cardsArray = [
-  " css-logo",
-  " docker-logo",
-  " github-logo",
-  " html-logo",
-  " js-logo",
-  " mysql-logo",
-  " node-logo",
-  " php-logo",
-  " react-logo",
-  " css-logo",
-  " docker-logo",
-  " github-logo",
-  " html-logo",
-  " js-logo",
-  " mysql-logo",
-  " node-logo",
-  " php-logo",
-  " react-logo",
+  " landing",
+  " limo",
+  " palazzo",
+  " paris",
+  " private_jet",
+  " sports_book",
+  " windows",
+  " wynn_casino",
+  " wynn_night",
+  " landing",
+  " limo",
+  " palazzo",
+  " paris",
+  " private_jet",
+  " sports_book",
+  " windows",
+  " wynn_casino",
+  " wynn_night",
 ];
 var fronts = document.getElementsByClassName("card-front");
-
-document.body.style.background = "url('assets/images2/LasVegas.jpg')";
-// function vegasCards() {
-//   var vegasBacks = document.querySelectorAll(".card-back");
-//   for (var i = 0; i < vegasBacks.length; i++) {
-//     vegasBacks[i].classList.add("-vegas");
-//   }
-// }
-// vegasCards()
 
 function shuffle(cardsArray) {
   var i = 0;
@@ -56,6 +47,13 @@ for (var i = 0; i < fronts.length; i++) {
   fronts[i].className += ' ' + cardsArray[i];
 }
 
+function resetCards() {
+  var hiddenCards = document.querySelectorAll(".card-back");
+  for (var i = 0; i < hiddenCards.length; i++) {
+    hiddenCards[i].classList.remove("hidden");
+  }
+}
+
 function resetGame() {
   matches = 0;
   attempts = 0;
@@ -63,13 +61,6 @@ function resetGame() {
   resetCards();
   shuffle(cardsArray);
   document.getElementById("modal").classList.add("hidden");
-}
-
-function resetCards() {
-  var hiddenCards = document.querySelectorAll(".card-back");
-  for (var i = 0; i < hiddenCards.length; i++) {
-    hiddenCards[i].classList.remove("hidden");
-  }
 }
 
 var clickReset = document.getElementById("reset");
@@ -125,4 +116,3 @@ function handleClick(event) {
     }
   }
 }
-// Feature Set 6 Reset / Play Again //
