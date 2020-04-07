@@ -15,7 +15,7 @@ body {
   display: flex;
   flex-basis: 100%;
   height: 97vh;
-  /*background: url("../images/lfz-background.jpg");*/
+  background: url("../images2/LasVegas.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -95,31 +95,31 @@ div.card:hover {
   background-position: center;
   position: absolute;
 }
-.css-logo {
+.landing {
   background-image: url(../images2/landing.jpg);
 }
-.docker-logo {
+.limo {
   background-image: url(../images2/limo.jpg);
 }
-.github-logo {
+.palazzo {
   background-image: url(../images2/palazzo.jpg);
 }
-.html-logo {
+.paris {
   background-image: url(../images2/paris.jpg);
 }
-.js-logo {
+.private_jet {
   background-image: url(../images2/private_jet.jpg);
 }
-.mysql-logo {
+.sports_book {
   background-image: url(../images2/sports_book.jpg);
 }
-.node-logo {
+.windows {
   background-image: url(../images2/windows.jpg);
 }
-.php-logo {
+.wynn_casino {
   background-image: url(../images2/wynn_casino.jpg);
 }
-.react-logo {
+.wynn_night {
   background-image: url(../images2/wynn_night.jpg);
 }
 .modal {
