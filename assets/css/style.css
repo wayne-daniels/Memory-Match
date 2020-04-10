@@ -8,6 +8,11 @@
   src: url(../fonts/ostrich-sans-regular.woff);
   font-weight: regular;
 }
+@font-face {
+  font-family: ostrich-sans-black;
+  src: url(../fonts/ostrich-sans-black.woff);
+  font-weight: black;
+}
 .container {
   height: 100%;
 }
@@ -25,16 +30,16 @@ h1 {
   display: flex;
   justify-content: center;
   font-family: ostrich-sans-bold;
-  font-size: 4rem;
+  font-size: 4.5rem;
   text-align: center;
   color: white;
   text-shadow: 2.5px 2.5px 4.5px white;
 }
 
 p {
-  font-family: ostrich-sans-regular;
-  font-size: 2rem;
-  color: darkslategrey;
+  font-family: ostrich-sans-black;
+  font-size: 2.5rem;
+  color: black;
   text-shadow: 4.5px 4.5px 8.5px white;
 }
 aside {
@@ -44,7 +49,7 @@ aside {
 }
 aside > div{
   background-color: #49F2FF ;
-  width: 85%;
+  width: 90%;
   height: 14%;
   border-radius: 10px;
   display: flex;
@@ -68,13 +73,14 @@ div.card {
   position: relative;
   top: 25px;
 }
-div.card:hover {
+div.card-back:hover {
   -webkit-box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85,
   12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B,
   -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0,0,0,0); box-shadow: 5px 5px 15px 5px #FF8080,
   -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF,
   12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF,
   5px 5px 15px 5px rgba(0,0,0,0);
+  cursor: pointer;
 }
 .card-front, .card-back {
   height: 100%;
@@ -141,7 +147,7 @@ div.card:hover {
   width: 60%;
   height: 40%;
 }
-.win-content:hover{
+.game-reset:hover{
   -webkit-box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85,
   12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B,
   -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0,0,0,0);
@@ -149,6 +155,7 @@ div.card:hover {
   -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF,
   12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF,
   5px 5px 15px 5px rgba(0,0,0,0);
+  cursor: pointer;
 }
 .win-content > p {
   color: lightsalmon;
@@ -163,7 +170,7 @@ div.card:hover {
   align-items: center;
   flex-direction: column;
   background-color: white;
-  border: solid 10px hotpink;
+  border: solid 10px red;
   border-radius: 2px;
   width: 25%;
   height: 20%;
@@ -171,8 +178,8 @@ div.card:hover {
 }
 .game-reset > p {
   color: darkviolet;
-  font-family: ostrich-sans-bold;
-  font-size: 1.5rem;
+  font-family: ostrich-sans-black;
+  font-size: 2.5rem;
   font-weight: bolder;
   margin: 0;
 }
