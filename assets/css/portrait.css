@@ -46,4 +46,10 @@
     height: 26vh;
     width: 11vw;
     }
+  div.win-content>p {
+    font-size: 7.5vh;
+    }
+  div.game-reset>p {
+    font-size: 5vh;
+    }
   }
