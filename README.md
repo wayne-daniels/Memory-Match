@@ -1,4 +1,4 @@
-# Vegas Memory Match
+# Casino-Crawl
 A Las Vegas themed card match game built using HTML, CSS, and JavaScript.
 
 ## Technologies Used
